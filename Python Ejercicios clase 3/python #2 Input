@@ -3,6 +3,6 @@
 
 
 numero_str = input ("Ingresar un número: ")
-numero = int(numero_str) 
+numero = int(numero_str)  #convertimos a entero para poder hacer la operación
 cuadrado = numero * numero
 print("El cuadrado del número ", numero, " es: ", cuadrado)
