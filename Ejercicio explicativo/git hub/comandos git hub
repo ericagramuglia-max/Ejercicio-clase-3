@@ -1,0 +1,27 @@
+git status        # ver estado
+git add .         # agregar cambios
+git commit -m "mensaje"
+git push          # subir cambios
+git pull          # bajar cambios
+
+1. git init                 → crear repositorio local
+2. git clone URL            → copiar repo de :contentReference[oaicite:0]{index=0}
+3. git status               → ver estado de archivos
+4. git add archivo          → agregar un archivo
+5. git add .                → agregar todos los archivos
+6. git commit -m "mensaje"  → guardar cambios
+7. git log                  → ver historial de commits
+8. git push                 → subir cambios al repositorio
+9. git pull                 → bajar cambios del repositorio
+10. git branch              → ver ramas
+11. git branch nueva_rama   → crear rama
+12. git checkout rama       → cambiar de rama
+13. git checkout -b rama    → crear y cambiar a rama
+14. git merge rama          → unir ramas
+15. git remote add origin URL → conectar repo local con GitHub
+
+Fórmula que más se usa (memorizar):
+
+git add .
+git commit -m "cambios"
+git push
